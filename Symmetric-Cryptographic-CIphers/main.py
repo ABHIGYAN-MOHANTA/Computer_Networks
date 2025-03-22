@@ -1,5 +1,5 @@
 import playfair
-import vignere
+import vigenere
 
 def main():
     print("Playfair Cipher Test")
@@ -13,7 +13,7 @@ def main():
 
     print("\nVigenère Cipher Test")
     table = vignere.generate_table()
-    text = 'attackatdawn'
+    text = 'attack at dawn'
     key = 'lemon'
     encrypted_text = vignere.encrypt(table, text, key)
     print('Encrypted text:', encrypted_text)
