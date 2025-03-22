@@ -38,10 +38,10 @@ def decrypt(table, text, key):
         decrypted_text += chr(col + ord('a'))
     return decrypted_text
 
-table = generate_table()
-text = 'attackatdawn'
-key = 'lemon'
-encrypted_text = encrypt(table, text, key)
-print('Encrypted text:', encrypted_text)
-decrypted_text = decrypt(table, encrypted_text, key)
-print('Decrypted text:', decrypted_text)
+# table = generate_table()
+# text = 'attackatdawn'
+# key = 'lemon'
+# encrypted_text = encrypt(table, text, key)
+# print('Encrypted text:', encrypted_text)
+# decrypted_text = decrypt(table, encrypted_text, key)
+# print('Decrypted text:', decrypted_text)

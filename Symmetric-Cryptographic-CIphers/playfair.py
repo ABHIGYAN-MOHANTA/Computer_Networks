@@ -55,10 +55,10 @@ def decrypt(table, text):
             decrypted_text += table[pos1[0]][pos2[1]] + table[pos2[0]][pos1[1]]
     return decrypted_text
 
-key = 'playfair'
-table = generate_table(key)
-text = 'Hide the gold in the tree stump'
-encrypted_text = encrypt(table, text)
-print('Encrypted text:', encrypted_text)
-decrypted_text = decrypt(table, encrypted_text)
-print('Decrypted text:', decrypted_text)
+# key = 'playfair'
+# table = generate_table(key)
+# text = 'Hide the gold in the tree stump'
+# encrypted_text = encrypt(table, text)
+# print('Encrypted text:', encrypted_text)
+# decrypted_text = decrypt(table, encrypted_text)
+# print('Decrypted text:', decrypted_text)
