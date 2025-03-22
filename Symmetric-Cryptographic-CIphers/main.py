@@ -12,12 +12,12 @@ def main():
     print('Decrypted text:', decrypted_text)
 
     print("\nVigenère Cipher Test")
-    table = vignere.generate_table()
+    table = vigenere.generate_table()
     text = 'attack at dawn'
     key = 'lemon'
-    encrypted_text = vignere.encrypt(table, text, key)
+    encrypted_text = vigenere.encrypt(table, text, key)
     print('Encrypted text:', encrypted_text)
-    decrypted_text = vignere.decrypt(table, encrypted_text, key)
+    decrypted_text = vigenere.decrypt(table, encrypted_text, key)
     print('Decrypted text:', decrypted_text)
 
 if __name__ == "__main__":
